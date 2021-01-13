@@ -1,0 +1,42 @@
+footer {
+    border-top: solid 2px black;
+}
+#copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(39, 36, 36);
+    padding: 10px 0;
+}
+#copyright p {
+    color: black;
+}
+#copyright a {
+    color: #fff;
+    text-decoration: none;
+
+}
+#company {
+    background-color: rgb(87, 76, 76);
+    padding: 20px 0;
+}
+#company .container {
+    display: flex;
+    justify-content: space-between;
+}
+#company .container section {
+    display: flex;
+    flex-direction: column;
+
+}
+h3 {
+    color:black;
+    font-size: 1.6em;
+}
+#company .container section a {
+    color: #fff;
+    text-decoration: none;
+}
+#s-icons svg:hover{
+    color: cornflowerblue;
+}
